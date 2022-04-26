@@ -11,7 +11,6 @@ C:\Users\Lucas\Documents\Udemy\SalesWebMvc\SalesWebMVC\SalesWebMVC\bin\Debug\net
 C:\Users\Lucas\Documents\Udemy\SalesWebMvc\SalesWebMVC\SalesWebMVC\obj\Debug\netcoreapp2.1\SalesWebMVC.csprojAssemblyReference.cache
 C:\Users\Lucas\Documents\Udemy\SalesWebMvc\SalesWebMVC\SalesWebMVC\obj\Debug\netcoreapp2.1\SalesWebMVC.AssemblyInfoInputs.cache
 C:\Users\Lucas\Documents\Udemy\SalesWebMvc\SalesWebMVC\SalesWebMVC\obj\Debug\netcoreapp2.1\SalesWebMVC.AssemblyInfo.cs
-C:\Users\Lucas\Documents\Udemy\SalesWebMvc\SalesWebMVC\SalesWebMVC\obj\Debug\netcoreapp2.1\SalesWebMVC.csproj.CoreCompileInputs.cache
 C:\Users\Lucas\Documents\Udemy\SalesWebMvc\SalesWebMVC\SalesWebMVC\obj\Debug\netcoreapp2.1\SalesWebMVC.RazorAssemblyInfo.cache
 C:\Users\Lucas\Documents\Udemy\SalesWebMvc\SalesWebMVC\SalesWebMVC\obj\Debug\netcoreapp2.1\SalesWebMVC.RazorAssemblyInfo.cs
 C:\Users\Lucas\Documents\Udemy\SalesWebMvc\SalesWebMVC\SalesWebMVC\obj\Debug\netcoreapp2.1\SalesWebMVC.TagHelpers.input.cache
@@ -34,3 +33,5 @@ C:\Users\Lucas\Documents\Udemy\SalesWebMvc\SalesWebMVC\SalesWebMVC\obj\Debug\net
 C:\Users\Lucas\Documents\Udemy\SalesWebMvc\SalesWebMVC\SalesWebMVC\obj\Debug\netcoreapp2.1\SalesWebMVC.pdb
 C:\Users\Lucas\Documents\Udemy\SalesWebMvc\SalesWebMVC\SalesWebMVC\obj\Debug\netcoreapp2.1\SalesWebMVC.genruntimeconfig.cache
 C:\Users\Lucas\Documents\Udemy\SalesWebMvc\SalesWebMVC\SalesWebMVC\obj\Debug\netcoreapp2.1\SalesWebMVC.csproj.CopyComplete
+C:\Users\Lucas\Documents\Udemy\SalesWebMvc\SalesWebMVC\SalesWebMVC\obj\Debug\netcoreapp2.1\SalesWebMVC.csproj.CoreCompileInputs.cache
+C:\Users\Lucas\Documents\Udemy\SalesWebMvc\SalesWebMVC\SalesWebMVC\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Index.cshtml.g.cs
