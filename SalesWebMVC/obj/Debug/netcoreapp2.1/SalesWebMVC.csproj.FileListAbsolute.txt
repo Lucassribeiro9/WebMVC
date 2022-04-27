@@ -41,3 +41,4 @@ C:\Users\Lucas\Documents\Udemy\SalesWebMvc\SalesWebMVC\SalesWebMVC\obj\Debug\net
 C:\Users\Lucas\Documents\Udemy\SalesWebMvc\SalesWebMVC\SalesWebMVC\obj\Debug\netcoreapp2.1\Razor\Views\Departments\Edit.cshtml.g.cs
 C:\Users\Lucas\Documents\Udemy\SalesWebMvc\SalesWebMVC\SalesWebMVC\obj\Debug\netcoreapp2.1\Razor\Views\Departments\Index.cshtml.g.cs
 C:\Users\Lucas\Documents\Udemy\SalesWebMvc\SalesWebMVC\SalesWebMVC\obj\Debug\netcoreapp2.1\SalesWebMVC.csproj.CoreCompileInputs.cache
+C:\Users\Lucas\Documents\Udemy\SalesWebMvc\SalesWebMVC\SalesWebMVC\obj\Debug\netcoreapp2.1\Razor\Views\Sellers\Index.cshtml.g.cs
