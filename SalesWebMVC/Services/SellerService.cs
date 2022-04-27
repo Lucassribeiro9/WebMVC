@@ -20,6 +20,7 @@ namespace SalesWebMVC.Services
         }
         public void Insert(Seller obj) // insert do seller
         {
+            obj.Department = _context.Department.First(); // pega o id do department para usar como chave estrangeira
             _context.Add(obj);
             _context.SaveChanges();
         }
