@@ -38,6 +38,7 @@ namespace SalesWebMVC.Controllers
 
             return RedirectToAction(nameof(Index));
         }
+        // GET
         public IActionResult Delete(int? id) // int opcional
         {
             if (id == null)
@@ -59,6 +60,19 @@ namespace SalesWebMVC.Controllers
         {
             _sellerService.Remove(id);
             return RedirectToAction(nameof(Index));
+        }
+        public IActionResult Details(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+            var obj = _sellerService.FindByID(id.Value); // pra pegar o valor caso exista
+            if (obj == null)
+            {
+                return NotFound();
+            }
+            return View(obj);
         }
     }
 }
