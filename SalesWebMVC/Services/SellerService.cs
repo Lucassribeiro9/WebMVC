@@ -16,36 +16,37 @@ namespace SalesWebMVC.Services
         {
             _context = context;
         }
-        public List<Seller> FindAll()
+        public async Task<List<Seller>> FindAllAsync()
         {
-            return _context.Seller.ToList(); // função sincrona por enquanto
+            return await _context.Seller.ToListAsync(); // função sincrona por enquanto
         }
-        public void Insert(Seller obj) // insert do seller
+        public async Task InsertAsync(Seller obj) // insert do seller
         {
             /* obj.Department = _context.Department.First(); // pega o id do department para usar como chave estrangeira. Não é mais necessário, pois agora já está instanciado com o department */
             _context.Add(obj);
-            _context.SaveChanges();
+            await _context.SaveChangesAsync();
         }
-        public Seller FindByID(int id)
+        public async Task<Seller> FindByIDAsync(int id)
         {
-            return _context.Seller.Include(obj => obj.Department).FirstOrDefault(obj => obj.Id == id);
+            return await _context.Seller.Include(obj => obj.Department).FirstOrDefaultAsync(obj => obj.Id == id);
         }
-        public void Remove(int id)
+        public async Task RemoveAsync(int id)
         {
-            var obj = _context.Seller.Find(id);
+            var obj = await _context.Seller.FindAsync(id);
             _context.Seller.Remove(obj);
-            _context.SaveChanges();
+            await _context.SaveChangesAsync();
         }
-        public void Update(Seller obj)
+        public async Task UpdateAsync(Seller obj)
         {
-            if (!_context.Seller.Any(x => x.Id == obj.Id))
+            bool hasAny = await _context.Seller.AnyAsync(x => x.Id == obj.Id);
+            if (!hasAny)
             {
                 throw new NotFoundException("Id not found");
             }
             try
             {
                 _context.Update(obj);
-                _context.SaveChanges();
+                await _context.SaveChangesAsync();
             }
             catch (DbUpdateConcurrencyException err) // interceptando uma possível exceção do banco e personalizando-a
             {
