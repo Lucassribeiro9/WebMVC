@@ -36,6 +36,12 @@ namespace SalesWebMVC.Controllers
         [ValidateAntiForgeryToken] // anti-malware
         public IActionResult Create(Seller seller) // recebe o objeto que veio na requisição, portanto é só colocar como parâmetro
         {
+            if (!ModelState.IsValid) // teste de validação
+            {
+                var departments = _departmentService.FindAll();
+                var viewModel = new SellerFormViewModel { Seller = seller, Departments = departments };
+                return View(viewModel); // enquanto o formulário não estiver correto
+            }
             _sellerService.Insert(seller);
 
             return RedirectToAction(nameof(Index));
@@ -97,6 +103,12 @@ namespace SalesWebMVC.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Edit(int id, Seller seller)
         {
+            if (!ModelState.IsValid) // teste de validação
+            {
+                var departments = _departmentService.FindAll();
+                var viewModel = new SellerFormViewModel { Seller = seller, Departments = departments };
+                return View(viewModel); // enquanto o formulário não estiver correto
+            }
             if (id != seller.Id)
             {
                 return RedirectToAction(nameof(Error), new { message = "Id mismatch" });
