@@ -13,6 +13,8 @@ using Microsoft.EntityFrameworkCore;
 using SalesWebMVC.Models;
 using SalesWebMVC.Data;
 using SalesWebMVC.Services;
+using System.Globalization;
+using Microsoft.AspNetCore.Localization;
 
 namespace SalesWebMVC
 {
@@ -52,6 +54,14 @@ namespace SalesWebMVC
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, SeedingService seedingService)
         // como já tem uma dependencia do SeedingService, ele cria uma instancia automaticamente
         {
+            var enUS = new CultureInfo("en-US");
+            var localizationOptions = new RequestLocalizationOptions
+            {
+                DefaultRequestCulture = new RequestCulture(enUS),
+                SupportedCultures = new List<CultureInfo> { enUS },
+                SupportedUICultures = new List<CultureInfo> { enUS }
+            };
+            app.UseRequestLocalization(localizationOptions);
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
