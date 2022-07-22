@@ -1,6 +1,5 @@
 C:\Users\Lucas\Documents\Udemy\SalesWebMvc\SalesWebMVC\SalesWebMVC\bin\Debug\netcoreapp2.1\appsettings.Development.json
 C:\Users\Lucas\Documents\Udemy\SalesWebMvc\SalesWebMVC\SalesWebMVC\bin\Debug\netcoreapp2.1\appsettings.json
-C:\Users\Lucas\Documents\Udemy\SalesWebMvc\SalesWebMVC\SalesWebMVC\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
 C:\Users\Lucas\Documents\Udemy\SalesWebMvc\SalesWebMVC\SalesWebMVC\bin\Debug\netcoreapp2.1\SalesWebMVC.deps.json
 C:\Users\Lucas\Documents\Udemy\SalesWebMvc\SalesWebMVC\SalesWebMVC\bin\Debug\netcoreapp2.1\SalesWebMVC.runtimeconfig.json
 C:\Users\Lucas\Documents\Udemy\SalesWebMvc\SalesWebMVC\SalesWebMVC\bin\Debug\netcoreapp2.1\SalesWebMVC.runtimeconfig.dev.json
@@ -8,7 +7,6 @@ C:\Users\Lucas\Documents\Udemy\SalesWebMvc\SalesWebMVC\SalesWebMVC\bin\Debug\net
 C:\Users\Lucas\Documents\Udemy\SalesWebMvc\SalesWebMVC\SalesWebMVC\bin\Debug\netcoreapp2.1\SalesWebMVC.pdb
 C:\Users\Lucas\Documents\Udemy\SalesWebMvc\SalesWebMVC\SalesWebMVC\bin\Debug\netcoreapp2.1\SalesWebMVC.Views.dll
 C:\Users\Lucas\Documents\Udemy\SalesWebMvc\SalesWebMVC\SalesWebMVC\bin\Debug\netcoreapp2.1\SalesWebMVC.Views.pdb
-C:\Users\Lucas\Documents\Udemy\SalesWebMvc\SalesWebMVC\SalesWebMVC\obj\Debug\netcoreapp2.1\SalesWebMVC.csprojAssemblyReference.cache
 C:\Users\Lucas\Documents\Udemy\SalesWebMvc\SalesWebMVC\SalesWebMVC\obj\Debug\netcoreapp2.1\SalesWebMVC.AssemblyInfoInputs.cache
 C:\Users\Lucas\Documents\Udemy\SalesWebMvc\SalesWebMVC\SalesWebMVC\obj\Debug\netcoreapp2.1\SalesWebMVC.AssemblyInfo.cs
 C:\Users\Lucas\Documents\Udemy\SalesWebMvc\SalesWebMVC\SalesWebMVC\obj\Debug\netcoreapp2.1\SalesWebMVC.RazorAssemblyInfo.cache
@@ -33,8 +31,6 @@ C:\Users\Lucas\Documents\Udemy\SalesWebMvc\SalesWebMVC\SalesWebMVC\obj\Debug\net
 C:\Users\Lucas\Documents\Udemy\SalesWebMvc\SalesWebMVC\SalesWebMVC\obj\Debug\netcoreapp2.1\SalesWebMVC.pdb
 C:\Users\Lucas\Documents\Udemy\SalesWebMvc\SalesWebMVC\SalesWebMVC\obj\Debug\netcoreapp2.1\SalesWebMVC.genruntimeconfig.cache
 C:\Users\Lucas\Documents\Udemy\SalesWebMvc\SalesWebMVC\SalesWebMVC\obj\Debug\netcoreapp2.1\SalesWebMVC.csproj.CopyComplete
-C:\Users\Lucas\Documents\Udemy\SalesWebMvc\SalesWebMVC\SalesWebMVC\bin\Debug\netcoreapp2.1\Properties\serviceDependencies.json
-C:\Users\Lucas\Documents\Udemy\SalesWebMvc\SalesWebMVC\SalesWebMVC\bin\Debug\netcoreapp2.1\Properties\serviceDependencies.local.json
 C:\Users\Lucas\Documents\Udemy\SalesWebMvc\SalesWebMVC\SalesWebMVC\obj\Debug\netcoreapp2.1\Razor\Views\Departments\Create.cshtml.g.cs
 C:\Users\Lucas\Documents\Udemy\SalesWebMvc\SalesWebMVC\SalesWebMVC\obj\Debug\netcoreapp2.1\Razor\Views\Departments\Delete.cshtml.g.cs
 C:\Users\Lucas\Documents\Udemy\SalesWebMvc\SalesWebMVC\SalesWebMVC\obj\Debug\netcoreapp2.1\Razor\Views\Departments\Details.cshtml.g.cs
@@ -49,3 +45,5 @@ C:\Users\Lucas\Documents\Udemy\SalesWebMvc\SalesWebMVC\SalesWebMVC\obj\Debug\net
 C:\Users\Lucas\Documents\Udemy\SalesWebMvc\SalesWebMVC\SalesWebMVC\obj\Debug\netcoreapp2.1\Razor\Views\SalesRecords\Index.cshtml.g.cs
 C:\Users\Lucas\Documents\Udemy\SalesWebMvc\SalesWebMVC\SalesWebMVC\obj\Debug\netcoreapp2.1\Razor\Views\SalesRecords\GroupingSearch.cshtml.g.cs
 C:\Users\Lucas\Documents\Udemy\SalesWebMvc\SalesWebMVC\SalesWebMVC\obj\Debug\netcoreapp2.1\Razor\Views\SalesRecords\SimpleSearch.cshtml.g.cs
+C:\Users\Lucas\Documents\Udemy\SalesWebMvc\SalesWebMVC\SalesWebMVC\obj\Debug\netcoreapp2.1\SalesWebMVC.csproj.AssemblyReference.cache
+C:\Users\Lucas\Documents\Udemy\SalesWebMvc\SalesWebMVC\SalesWebMVC\obj\Debug\netcoreapp2.1\SalesWebMVC.GeneratedMSBuildEditorConfig.editorconfig
